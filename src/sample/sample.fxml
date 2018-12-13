@@ -10,9 +10,16 @@
     <Button GridPane.rowIndex="0" GridPane.columnIndex="0" text="Click me">
         <graphic>
             <ImageView>
-                <Image url="@/toolbarButtonGraphics/general/TipOfTheDay24.gif"/>
+                <Image url="@resources/TipOfTheDay24.gif"/>
             </ImageView>
         </graphic>
 
     </Button>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="1" text="This is a label">
+        <graphic>
+            <ImageView>
+                <Image url="@resources/Information24.gif"/>
+            </ImageView>
+        </graphic>
+    </Label>
 </GridPane>
